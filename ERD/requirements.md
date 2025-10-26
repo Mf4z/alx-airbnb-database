@@ -4,6 +4,8 @@ _Updated: 2025-10-26_
 This document describes the **entities**, **attributes**, and **relationships** in the Airbnb Clone database schema.  
 The design ensures data integrity, minimal redundancy, and efficient querying through proper normalization.
 
+![airbnb-erd.png](./airbnb-erd.png)
+
 ---
 
 ## 🧱 Entities Overview
