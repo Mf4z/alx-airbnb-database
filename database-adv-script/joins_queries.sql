@@ -26,7 +26,7 @@ SELECT
   r.created_at
 FROM properties AS p
 LEFT JOIN reviews AS r
-  ON p.property_id = r.property_id;
+  ON p.property_id = r.property_id ORDER BY r;
 
 /* C) FULL OUTER JOIN: all users and all bookings, even if unrelated
    Postgres version (supports FULL OUTER JOIN): */
